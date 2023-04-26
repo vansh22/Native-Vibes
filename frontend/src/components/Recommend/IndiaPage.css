@@ -1,0 +1,77 @@
+/* Center the form horizontally */
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  form label {
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+  }
+  
+  form input[type="radio"] {
+    margin-right: 5px;
+  }
+  
+/* form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+  }
+   */
+  /* Style the radio buttons and labels */
+  /* label {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    cursor: pointer;
+  }
+  input[type="radio"] {
+    margin-right: 5px;
+  } */
+  
+  /* Style the buttons */
+  button {
+    margin: 10px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    background-color: #007bff;
+    cursor: pointer;
+  }
+  button[type="submit"] {
+    background-color: #28a745;
+  }
+  button[type="reset"] {
+    background-color: #dc3545;
+  }
+  
+  /* Style the image */
+  .image {
+    display: block; /* remove any default margin */
+    width: 25%;
+    max-width: 600px; /* adjust the maximum width as needed */
+    height: auto; /* maintain aspect ratio */
+    margin: 20px auto 20px; /* center and add some space below the image */
+    border-radius: 5px; /* add a border radius for rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* add a subtle box shadow for depth */
+  }
+  .explore{
+    margin-left: -149px
+  }
+  .tit {
+    font-style: italic;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    font-weight: 200;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  

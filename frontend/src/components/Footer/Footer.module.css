@@ -1,0 +1,151 @@
+.Footer {
+  background: rgb(5, 4, 63);
+  padding: 1.25rem;
+  display: grid;
+  margin-top: 2rem;
+  grid-template-columns: 31% 31% 38%;
+}
+.ll {
+  padding-left: 10px;
+}
+.address {
+  color: rgba(255, 255, 255, 1);
+  font-family: "Montserrat";
+  font-weight: 200;
+  width: 70%;
+  margin-top: 8px;
+  padding: 2px;
+}
+.mid ul {
+  list-style: none;
+  color: rgba(255, 255, 255, 1);
+  font-family: "Montserrat";
+  font-weight: 300;
+  font-size: 15px;
+}
+.mid ul li {
+  font-family: "Montserrat";
+  cursor: pointer;
+}
+.mid {
+  display: flex;
+}
+
+.top {
+  margin-top: 12px;
+}
+.form .para {
+  color: rgba(255, 255, 255, 1);
+  font-family: "Montserrat";
+  font-weight: 600;
+}
+.h {
+  font-family: "Montserrat";
+  font-weight: 600;
+}
+.form .first {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.mail {
+  margin-left: 6px;
+}
+.message {
+  width: 100%;
+  margin-top: 10px;
+}
+input[type="text"],
+input[type="email"],
+textarea {
+  border: none;
+  border-radius: 8px;
+  padding: 5px;
+  background: rgba(195, 207, 181, 1);
+  color: rgba(79, 100, 79, 1);
+  font-family: "Montserrat";
+}
+
+input[type="text"] {
+  height: 2.25rem;
+}
+input[type="email"] {
+  height: 2.25rem;
+  margin-left: -3rem !important;
+}
+.para {
+  font-size: 20px;
+  font-family: "Montserrat";
+}
+.custom-btn {
+  width: 150px;
+  height: 45px;
+  color: black;
+  border-radius: 5px;
+  padding: 10px 25px;
+  font-family: "Montserrat";
+  font-weight: 600;
+  background: transparent;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  position: relative;
+  display: inline-block;
+  box-shadow: inset 2px 2px 2px 0px rgba(255, 255, 255, 0.5),
+    7px 7px 20px 0px rgba(0, 0, 0, 0.1), 4px 4px 5px 0px rgba(0, 0, 0, 0.1);
+  outline: none;
+}
+
+.custom-btn:hover {
+  color: white;
+}
+
+.btn {
+  background: rgba(255, 255, 255, 1);
+  padding: 0;
+  border: none;
+}
+
+.btn:hover{
+  background-color: darkgreen;
+}
+
+.btn span {
+  position: relative;
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+
+}
+
+@media screen and (max-width: 768px) {
+  html {
+    overflow-x: hidden;
+  }
+  .Footer {
+    display: block;
+  }
+
+  .ll {
+    align-items: center;
+  }
+  .adress {
+    width: 100%;
+  }
+  .mid {
+    margin-left: -1rem;
+  }
+  input[type="text"] {
+    width: 100%;
+    height: 2.25rem;
+  }
+  input[type="email"] {
+    width: 125%;
+    height: 2.25rem;
+    margin-left: -3rem !important;
+  }
+  textarea {
+    width: 100%;
+  }
+}

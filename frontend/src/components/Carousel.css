@@ -1,0 +1,76 @@
+.cardlo-slider {
+    /* border: 2px solid red; */
+    /* position: relative; */
+    width: 100%;
+    height: 100%;
+  }
+  
+  .cardlos-wrapper {
+    /* border: 2px solid blue; */
+    display: flex;
+    overflow-x: hidden;
+  }
+  
+  .cardlo {
+    background-color: white;
+    /* border: 2px solid green; */
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 400px;
+    height: 400px;
+    margin: 0 10px;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgb(61, 109, 240);
+    transition: transform 0.5s ease;
+    transform: scale(0.8);
+    color: black;
+    /* opacity: 0.7; */
+  }
+  
+  .cardlo.active {
+    transform: scale(1);
+    opacity: 1;
+  }
+  
+  .cardlo img {
+    width: 100%;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 5px;
+  }
+  
+  .cardlo-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 0;
+  }
+  
+  .cardlo-info h3 {
+    font-size: 1.2rem;
+    margin: 5px 0;
+  }
+  
+  .cardlo-info p {
+    font-size: 0.8rem;
+    text-align: center;
+    margin: 5px 0;
+  }
+  
+  /* .cardlo-rating {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    font-size: 1.2rem;
+  }   */
+  .slider-controls>button{
+    background-color: rgb(61, 109, 240);
+  }

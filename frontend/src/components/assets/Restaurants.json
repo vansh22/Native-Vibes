@@ -1,0 +1,52 @@
+[
+    {
+      "id": 1,
+      "name": "Bukhara",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/3/30/Mughlai_Kheema_Paratha.JPG",
+      "cuisine": "North Indian",
+      "location": "New Delhi",
+      "phone": "+91-11-24363030",
+      "priceRange": 3000,
+      "rating": 4.8
+    },
+    {
+      "id": 2,
+      "name": "Karim's",
+      "image": "https://lh3.googleusercontent.com/as3LSvzzOH8Kr8Qu0IHbaOgACweZ36IqPbU5A3VMfM7QNKmpNGbPaDWe1XHcgjaJSKuXh7DGKyDrjlqkbbCFqqxAaeiOyEHsNLJh8upXxQ=w512-rw",
+      "cuisine": "Mughlai",
+      "location": "Old Delhi",
+      "phone": "+91 99998 66000",
+      "priceRange": 500,
+      "rating": 4.4
+    },
+    {
+      "id": 3,
+      "name": "Trishna",
+      "image": "https://i.ytimg.com/vi/IwkHyDZynF0/maxresdefault.jpg",
+      "cuisine": "Seafood",
+      "location": "Mumbai",
+      "phone": "+91 22 22703213",
+      "priceRange": 2500,
+      "rating": 4.3
+    },
+    {
+      "id": 4,
+      "name": "Karavalli",
+      "image": "https://img.traveltriangle.com/blog/wp-content/uploads/2022/01/Famous-Food-Of-South-India.jpg",
+      "cuisine": "South Indian",
+      "location": "Bangalore",
+      "phone": "+91 80 4343 8399",
+      "priceRange": 2000,
+      "rating": 4.2
+    },
+    {
+      "id": 5,
+      "name": "The Spice Route",
+      "image": "https://im1.dineout.co.in/images/uploads/restaurant/sharpen/3/f/k/p3001-147437434357e12ac7921f0.jpg?tr=tr:n-xlarge",
+      "cuisine": "South-East Asian",
+      "location": "New Delhi",
+      "phone": "+91 11 4111 6600",
+      "priceRange": 5000,
+      "rating": 4.5
+    }
+  ]

@@ -1,0 +1,38 @@
+.rec{
+    padding:1rem 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.rec>img{
+    height: 350px;
+    width: 50%;
+    padding: 0;
+    border-radius: 0.75rem;
+}
+.fm{
+    width: 50%;
+    /* border: 2px solid red; */
+}
+.ltx{
+    width: 100%;
+    border: 2px solid rgb(220, 218, 218);
+    border-radius: 0.5rem;
+}
+.lx{
+    /* border: 1px solid black; */
+    border-radius: 0;
+    width: 100%;
+    background-color: rgb(220, 218, 218);
+    text-align: left;
+    font-weight: bold;
+    padding: 0.3rem;
+}
+.tx{
+    background-color: whitesmoke;
+    border-radius: 0;
+    width: 100%;
+}
+.tx:focus{
+    outline: 0;
+}

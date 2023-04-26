@@ -1,0 +1,43 @@
+.containert {
+  margin: 0;
+  /* border: 2px solid blue; */
+  max-width: 100%;
+  height: 100%;
+  padding: 0;
+  display: block;
+  background-color: whitesmoke;
+}
+.box {
+  /* border: 4px solid red; */
+  width: 100%;
+  height: 500px;
+  margin-top: 0;
+  text-align: center;
+  padding-bottom: 0rem;
+}
+.image {
+  margin: 0;
+  width: 100%;
+  max-height: 85%;
+  object-fit: cover;
+}
+.cardib {
+  margin: 2rem 0;
+  /* border: 2px solid green; */
+  text-align: center;
+}
+.feed {
+  /* border: 3px solid blue; */
+  display: flex;
+  justify-content: space-around;
+  padding: 1rem;
+}
+.cardib>h3 {
+  font-weight: bold;
+}
+.head {
+  /* border: 1px solid black; */
+  margin: 0;
+  color: brown;
+  font-weight: bolder;
+}

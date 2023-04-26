@@ -1,0 +1,25 @@
+.section {
+  display: flex;
+}
+.points > ul > li > a {
+  text-decoration: none;
+  font-weight: bold;
+}
+.points {
+  margin-left: 8rem;
+  margin-top: 3rem;
+}
+.map {
+  /* border: 2px solid red; */
+  margin: 1rem;
+  border-radius: 0.75rem;
+}
+.points > h4 {
+  font-weight: bold;
+}
+.transport > h2 {
+  margin-top: 1rem;
+  margin-left: 1rem;
+  font-weight: bold;
+  text-align: center;
+}

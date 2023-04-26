@@ -1,0 +1,27 @@
+.wrapperz {
+  background: center center/cover no-repeat;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0;
+  padding: 2rem;
+}
+.wrapperz>h1 {
+  margin-top: 2rem;
+  font-weight: bolder;
+}
+.btcont {
+  border: 2px solid rgb(41, 95, 175);
+  margin: 1.5rem;
+  padding: 2rem 4rem;
+  border-radius: 1rem;
+}
+.bt {
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
+}
+.bt:hover > .btcont {
+  background-color: whitesmoke;
+  color: black;
+}

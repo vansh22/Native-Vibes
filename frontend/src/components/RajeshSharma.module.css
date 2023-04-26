@@ -1,0 +1,194 @@
+
+.rjsharma{
+    background-color:whitesmoke;
+    margin: 0;
+    /* border: 2px solid rgb(116, 188, 250); */
+}
+
+/****************VIDEO***************************/
+.vidcont{
+    display: flex;
+    align-items: center;
+    /* border: 2px solid red; */
+    padding: 2rem;
+    justify-content: space-between;
+
+}
+.vidcont>div{
+    /* border: 2px solid red; */
+    width: 40%;
+    height: 400px;
+    /* padding: 2rem; */
+    margin-right: 2rem;
+    text-align: center;
+}
+.vidcont>div>h1{
+    font-size: 50px;
+    font-weight: bold;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-bottom: 0.2rem;
+    margin-top: 0.2rem;
+    text-align: center;
+    text-shadow: 2px 2px 4px rgb(67, 67, 238);
+}
+.vidcont>div>p{
+    padding: 2rem;
+    font-weight: 600;
+}
+.vidcont>video{
+    border-radius: 0.5rem;
+    box-shadow: 0 4px 8px 0 blue;
+    /* border: 6px solid black; */
+    width: 60%;
+    height: 400px;
+    background-color: rgb(135, 171, 243);
+}
+
+
+/******************IMAGE GALLERY*******************/
+.imgcon{
+   /* text-align: center; */
+   margin: 2rem;
+   display: flex;
+   justify-content: space-between;
+}
+.matter{
+   /* border: 2px solid blue; */
+   width: 40%;
+   margin-left: 1rem;
+   padding-left: 1.5rem;
+   font-weight: 600;
+}
+.matter>h2{
+    font-size: 40px;
+    font-weight: bold;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 0.6rem;
+    text-shadow: 2px 2px 4px rgb(67, 67, 238);
+}
+.matter>p>ul{
+     margin-left: 0;
+     padding-left: 1rem;
+     /* border: 1px solid red; */
+}
+
+
+/*************CUISINE**********************/
+.cuis{
+    margin: 2rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+/*************ENTERTAINMENT CARDS*******************/
+.entparcnt>h1{
+    font-weight: bold;
+    margin-left: 2rem;
+    margin-top: 4rem;
+    font-size: 40px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-shadow: 2px 2px 4px rgb(67, 67, 238);
+}
+.entcontpar{
+    display: flex;
+    /* border: 2px solid blue; */
+    max-width: 100%;
+    justify-content: space-between;
+    padding:0 6rem;
+}
+.entcont{
+    /* border: 4px solid red; */
+    /* box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2); */
+    box-shadow: 0 4px 8px 0 blue;
+    width: 40%;
+    text-align: center;
+    border-radius: 0.75rem;
+    padding: 1rem 2rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.entcont>img{
+    height: 300px;
+    border-radius: 0.75rem;
+    width: 100%;
+}
+
+.costi{
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 8rem;
+    /* border: 2px solid red; */
+}
+.costi1>h2{
+    font-size: 40px;
+    font-weight: bold;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 0.6rem;
+    text-shadow: 2px 2px 4px rgb(67, 67, 238);
+}
+.costi1>ul>li{
+    /* height: 30px; */
+    font-size: 25px;
+    margin-top: 2rem;
+    text-shadow: 0 3px 6px  rgb(135, 171, 243);
+}
+.costi2{
+    /* border: 2px solid blue; */
+    width: 50%;
+}
+.costi2>h2{
+    font-size: 40px;
+    font-weight: bold;
+    /* font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
+    margin-top: 0.6rem;
+    text-shadow: 2px 2px 4px rgb(67, 67, 238);
+}
+.costdec{
+    margin: 1rem;
+    font-weight: bold;
+    text-align: left;
+}
+.formiz{
+    /* border: 2px solid red; */
+    width: 50%;
+    height: 300px;
+    border-radius: 0.5rem;
+    background-color:rgb(135, 171, 243,0.4);
+    box-shadow: 0 4px 8px 0 blue;
+    padding: 2rem;
+    margin-left:8rem;
+}
+.formiz>select{
+    border: 4px solid blue;
+    border-radius: 0.75rem;
+    height: 80px;
+    width: 80%;
+    padding-left: 2rem;
+    margin: 2rem;
+    font-weight: bold;
+}
+.formiz>button{
+    background-color: blue;
+}
+.formiz>button>a{
+  text-decoration: none;
+  color: white;
+}
+
+/******************FEEDBACK**************/
+.fxs{
+    margin-top: 2rem;
+    display: flex;
+    /* border: 2px solid red; */
+}
+.cst{
+    /* border: 2px solid blue; */
+    margin:0 7rem;
+    margin-right: 9rem;
+}
+.cst>ul{
+    list-style-type:none;
+    margin-top: 2rem;
+}

@@ -1,0 +1,31 @@
+destination,type,region,budget,outdoor_activity,indoor_activity,historical_attraction,modern_attraction,beach,mountain
+Agra,culture,north,medium,yoga,museum,monument,shopping,no,yes
+Goa,relaxation,south,high,hiking,spa,church,beach,yes,no
+Jaipur,culture,north,medium,cycling,shopping,monument,museum,no,no
+Munnar,adventure,south,high,trekking,spa,nature_park,nightlife,no,yes
+Shimla,relaxation,north,low,yoga,shopping,church,mall,no,yes
+Rishikesh,adventure,north,medium,rafting,yoga,temple,nightlife,no,yes
+Kodaikanal,relaxation,south,low,hiking,spa,nature_park,mall,no,yes
+Udaipur,culture,north,high,boating,shopping,monument,nightlife,no,no
+Mumbai,relaxation,west,high,beach,sports,monument,nightlife,yes,no
+Chennai,culture,south,medium,beach,museum,temple,shopping,yes,no
+Pondicherry,relaxation,south,low,yoga,shopping,church,nightlife,yes,no
+Manali,adventure,north,high,hiking,spa,temple,nightlife,no,yes
+Kolkata,culture,east,medium,museum,shopping,monument,nightlife,no,no
+Bangalore,relaxation,south,high,spa,mall,temple,nightlife,no,no
+Delhi,culture,north,high,shopping,museum,monument,nightlife,no,no
+Kochi,relaxation,south,low,beach,sports,church,mall,yes,no
+Kanyakumari,adventure,south,low,water_sports,museum,temple,shopping,yes,no
+Varanasi,culture,north,low,boating,yoga,temple,nightlife,no,no
+Hyderabad,culture,south,medium,shopping,museum,monument,nightlife,no,no
+Ooty,relaxation,south,low,hiking,spa,nature_park,mall,no,yes
+Darjeeling,adventure,east,medium,trekking,shopping,temple,mall,no,yes
+Chandigarh,relaxation,north,low,yoga,museum,monument,mall,no,no
+Gokarna,relaxation,south,low,beach,spa,temple,nightlife,yes,no
+Amritsar,culture,north,medium,shopping,museum,temple,nightlife,no,no
+Mount Abu,adventure,west,medium,trekking,shopping,nature_park,nightlife,no,yes
+Mussoorie,relaxation,north,low,hiking,shopping,temple,mall,no,yes
+Mahabaleshwar,relaxation,west,medium,trekking,spa,nature_park,shopping,no,yes
+Ajanta Ellora,culture,west,high,museum,shopping,monument,nightlife,no,no
+Hampi,culture,south,medium,shopping,spa,monument,mall,no,yes
+Coorg,adventure,south,high,trekking,spa,nature_park,nightlife,no,yes

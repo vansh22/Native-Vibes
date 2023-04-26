@@ -1,0 +1,41 @@
+.feedback-container {
+    width: 30%;
+    margin: auto;
+    height: 400px;
+    overflow-y: scroll;
+    background-color: #f9f9f9;
+    /* border: 1px solid #ccc; */
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgb(61, 109, 240);
+    padding: 10px;
+  }
+  
+  .feedback-list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .feedback-item {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 0px 0px 5px #ccc;
+  }
+  
+  .feedback-item>h3 {
+    margin-top: 0;
+    margin-bottom: 10px;
+  }
+  
+  .feedback-item p {
+    margin-top: 0;
+    margin-bottom: 10px;
+  }
+  
+  .feedback-item div {
+    display: flex;
+    gap: 5px;
+  }
+  

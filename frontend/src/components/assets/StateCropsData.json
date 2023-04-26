@@ -1,0 +1,96 @@
+{
+    "religious": [
+      {
+        "name": "Tirumala Venkateswara Temple",
+        "location": "Tirupati, Andhra Pradesh",
+        "description": "One of the most famous Hindu temples in the world, dedicated to Lord Venkateswara.",
+        "category": "temple",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/4/4e/Tirumala_090615.jpg"
+      },
+      {
+        "name": "Harmandir Sahib (Golden Temple)",
+        "location": "Amritsar, Punjab",
+        "description": "The holiest Sikh gurdwara, famous for its golden dome and surrounding pool of water.",
+        "category": "temple",
+        "popular": true,
+        "image": "https://upload.wikimedia.org/wikipedia/commons/9/94/The_Golden_Temple_of_Amrithsar_7.jpg"
+      },
+      {
+        "name": "Bodh Gaya",
+        "location": "Bihar",
+        "description": "A pilgrimage site for Buddhists, where it is believed that Gautama Buddha attained enlightenment.",
+        "category": "temple",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/5/57/Great_Buddha_Statue%2C_Bodh_Gaya.jpg"
+      }
+    ],
+    "traditional": [
+      {
+        "name": "Jaipur",
+        "location": "Rajasthan",
+        "description": "Known as the 'Pink City' for its distinctive buildings, Jaipur is a popular destination for its forts, palaces, and traditional markets.",
+        "category": "city",
+        "image": "https://gumlet.assettype.com/knocksense%2Fimport%2F24787238%2Forigin.jpg?w=1200&auto=format%2Ccompress&ogImage=true&enlarge=true"
+      },
+      {
+        "name": "Varanasi",
+        "location": "Uttar Pradesh",
+        "description": "One of the oldest continuously inhabited cities in the world, Varanasi is known for its ghats on the banks of the Ganges River and its Hindu temples.",
+        "category": "city",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/0/04/Ahilya_Ghat_by_the_Ganges%2C_Varanasi.jpg"
+      },
+      {
+        "name": "Kochi",
+        "location": "Kerala",
+        "description": "A port city on the southwest coast of India, Kochi is known for its historic fort, Dutch palace, and traditional Chinese fishing nets.",
+        "category": "city",
+        "image": "https://media.tacdn.com/media/attractions-splice-spp-674x446/06/74/7d/59.jpg"
+      }
+    ],
+    "nightlife": [
+      {
+        "name": "Goa",
+        "location": "Goa",
+        "description": "A coastal state known for its beaches, nightlife, and Portuguese colonial architecture.",
+        "category": "state",
+        "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/18/3e/36/95/baga-sea-beach.jpg?w=600&h=400&s=1"
+      },
+      {
+        "name": "Mumbai",
+        "location": "Maharashtra",
+        "description": "India's financial capital, known for its film industry, nightlife, and colonial-era architecture.",
+        "category": "city",
+        "image": "https://img.naidunia.com/naidunia/ndnimg/25012020/25_01_2020-mumbai_nightlife.jpg"
+      },
+      {
+        "name": "Bangalore",
+        "location": "Karnataka",
+        "description": "Known as the 'Silicon Valley of India', Bangalore is a major IT hub with a thriving nightlife scene.",
+        "category": "city",
+        "image": "https://thediplomat.com/wp-content/uploads/2016/07/sizes/td-story-s-2/thediplomat_2016-07-25_14-36-49.jpg"
+      }
+    ],
+    "adventurous": [
+      
+        {
+      "name": "Leh",
+      "location": "Ladakh, Jammu and Kashmir",
+      "description": "A high-altitude desert town in the Himalayas, known for its scenic landscapes, Buddhist monasteries, and adventure sports.",
+      "category": "town",
+      "image": "https://www.kosha.co/journal/wp-content/uploads/2021/11/Experience-Leh-in-Winter.jpg"
+    },
+    {
+      "name": "Rishikesh",
+      "location": "Uttarakhand",
+      "description": "A spiritual town on the banks of the Ganges River, known for its adventure sports such as white-water rafting and bungee jumping.",
+      "category": "town",
+      "image": "https://uttarakhandtourism.gov.in/sites/default/files/2020-09/under%20banner_1.jpg"
+    },
+    {
+      "name": "Manali",
+      "location": "Himachal Pradesh",
+      "description": "A popular hill station in the Himalayas, known for its scenic beauty and adventure sports such as skiing and trekking.",
+      "category": "town",
+      "image": "https://www.oyorooms.com/travel-guide/wp-content/uploads/2019/11/Top-4-Indian-skiing-destinations-Solang-1280x720.webp"
+    }]}
+       
+  
