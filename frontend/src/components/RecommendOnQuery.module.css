@@ -28,6 +28,12 @@
     font-weight: bold;
     padding: 0.3rem;
 }
+.no{
+    outline: 0;
+    width: 100%;
+    border: none;
+    margin: 2px;
+}
 .tx{
     background-color: whitesmoke;
     border-radius: 0;

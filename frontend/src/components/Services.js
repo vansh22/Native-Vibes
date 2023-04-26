@@ -19,7 +19,7 @@ const cardData = [
     description: 'NativeVibes offers a personalized travel experience to users through a recommendation system that considers their preferred activities, such as hiking, sightseeing, food and wine tours, and adventure sports. The system suggests popular destinations for these activities, ensuring that users have an enjoyable and tailored travel experience.'
   },
   {
-    imageSrc: 'https://img.freepik.com/free-vector/budgeting-concept-idea-financial-planning-wellbeing-currency-balance-income-money-allocation-isolated-flat-illustration-vector_613284-1084.jpg',
+    imageSrc: 'https://cdn5.vectorstock.com/i/1000x1000/84/24/flat-cartoon-children-charactersfamily-budget-vector-36068424.jpg',
     title: 'Budget Planner',
     description: 'NativeVibes offers a budget planner feature that helps travelers plan their trips based on their budget and the number of days they plan to stay. This ensures that users can have a stress-free and enjoyable travel experience by staying within their budget. The feature is integrated into the website to provide users with a personalized travel experience.'
   },

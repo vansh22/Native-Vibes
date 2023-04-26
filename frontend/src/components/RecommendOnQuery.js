@@ -1,24 +1,33 @@
 import React from "react";
-// import recommend from "./assets/images/recommend.avif";
+import recommends from "./assets/images/recommend.avif";
 import style from "./RecommendOnQuery.module.css";
-// import house3 from "./assets/images/house3.jpg";
 import { useState } from "react";
 
 const RecommendOnQuery = () => {
-  // const [text, setText] = useState("");
   const [recommend, setRecommend] = useState({
-    text: "",
+    query: "",
     number: "",
   });
 
-  function handleSubmit(e) {
+  const handleSubmit = async (e) => {
     e.preventDefault();
-    // console.log(text);
-    // setText("");
-  }
+    const { query, number } = recommend;
+    const response = await fetch(`http://localhost:8000/recommend/`, {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify({
+        query,
+        number,
+      }),
+    });
+    const json = await response.json();
+    console.log(json);
+  };
 
   function handleClear() {
-    // setText("");
+    setRecommend({ query: "", number: "" });
   }
 
   const handleOnChange = (e) => {
@@ -27,19 +36,19 @@ const RecommendOnQuery = () => {
 
   return (
     <div className={style.rec}>
-      <img src={recommend}></img>
+      <img src={recommends}></img>
       <h3>Travel Destination Recommendation System</h3>
       <form className={style.fm} onSubmit={handleSubmit}>
         <div className={style.ltx}>
-          <label className={style.lx} for="story">
-            Enter text to search
+          <label className={style.lx} htmlFor="story">
+            Enter query to search
           </label>
           <textarea
             id="story"
             rows="2"
             cols="50"
             type="text"
-            name="text"
+            name="query"
             onChange={handleOnChange}
             placeholder="Write anything..."
             className={style.tx}
@@ -47,27 +56,26 @@ const RecommendOnQuery = () => {
         </div>
         <br />
         <div className={style.ltx}>
-          <label className={style.lx} for="story">
+          <label className={style.lx} htmlFor="story">
             Enter number of Recommendations
           </label>
           <input
             id="story"
             rows="2"
             cols="50"
-            type="text"
+            type="number"
             name="number"
-            background-color= "whitesmoke"
+            background-color="whitesmoke"
             onChange={handleOnChange}
             placeholder="Write no..."
-            className={style.tx}
+            className={style.no}
           ></input>
         </div>
-        <br />
         <div>
           <button type="submit" className="submit-button">
             Submit
           </button>
-          <button type="button" onClick={handleClear} className="clear-button">
+          <button type="submit" onClick={handleClear} className="clear-button">
             Reset
           </button>
         </div>
